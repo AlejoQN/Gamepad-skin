@@ -1,0 +1,43 @@
+/* Configuración básica del cuerpo */
+body {
+    background-color: rgba(0, 0, 0, 0); /* Fondo transparente */
+    margin: 0px auto; /* Centrar en la pantalla */
+    overflow: hidden; /* Evitar scroll */
+}
+
+/* Configuración del contenedor principal del gamepad */
+#gamepad {
+    position: relative;
+    width: 600px; /* Ajusta el tamaño del gamepad */
+    height: 400px; /* Ajusta el tamaño del gamepad */
+    background-image: url('/gamepad.png'); /* URL de la imagen del gamepad */
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto; /* Centrar el gamepad */
+}
+
+/* Ejemplo de configuración de un botón */
+.button {
+    position: absolute;
+}
+
+#button-cross {
+    top: 290px; /* Ajusta la posición vertical */
+    left: 180px; /* Ajusta la posición horizontal */
+    width: 50px; /* Tamaño del botón */
+    height: 50px; /* Tamaño del botón */
+    background: transparent url('cross.png') no-repeat center; /* Imagen del botón */
+    background-size: contain;
+}
+
+/* Añadir más botones y sticks */
+#button-circle {
+    top: 200px;
+    left: 300px;
+    width: 50px;
+    height: 50px;
+    background: transparent url('circle.png') no-repeat center;
+    background-size: contain;
+}
+
+/* Agrega aquí los botones adicionales */
